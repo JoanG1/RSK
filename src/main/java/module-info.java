@@ -11,4 +11,6 @@ module com.parker.risk {
     opens com.parker.risk.logic to javafx.fxml;
     exports com.parker.risk.logic.pieces;
     opens com.parker.risk.logic.pieces to javafx.fxml;
+    exports com.parker.risk.logic.cards;
+    opens com.parker.risk.logic.cards to javafx.fxml;
 }
